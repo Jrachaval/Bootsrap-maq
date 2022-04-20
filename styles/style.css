@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  background-color: #000000;
+    
+}
+
+.container-fluid{
+    background-image: url(../assets/img/wallpaper-mania.com_High_resolution_wallpaper_background_ID_77702071762.jpg);
+    width: 1920px;
+    height: 1080px;
+}
+
+.col-1{
+  margin: 2px;
+  padding: 5px;
+}
+
+  .h1{
+    font-family: 'Keania One';
+    font-style: normal;
+    font-size: 100px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    color: rgba(59, 160, 233, 0.6);
+    }
+
+    ul li{
+      padding: 50px;
+    }
+
+    .h2{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: normal;
+      font-size: 120px;
+      text-align: left;
+      color: white;
+    }
+    p {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: normal;
+      font-size: 20px;
+      text-align: center;
+      color: yellow;
+    }
+
+
+    .container{
+      align-items: flex-start;
+      margin-left: 0.20rem;
+      
+    }
+    
+    nav img{
+      display: flex;
+      flex-direction: column;
+          }
+    
+
+
+
+
+
+
+    
+
+
+
