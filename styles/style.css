@@ -37,7 +37,7 @@ body{
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       font-style: normal;
       font-size: 120px;
-      text-align: left;
+      
       color: white;
     }
     p {
@@ -59,10 +59,27 @@ body{
       display: flex;
       flex-direction: column;
           }
+        
     
 
+    .img-thumbnail{
+        width: 200px;
+        height: 150px;
+          
+    }
 
+    .card-img-top{
+      width: 60%;
+      height: 60%;
+    }
 
+    .card{
+      flex-direction: row;
+    }
+
+    .card-text{
+      color: #000000;
+    }
 
 
 
