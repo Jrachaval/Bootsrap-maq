@@ -1,0 +1,19 @@
+@import "./utilities/variables";
+
+@import "./components/estructura";
+@import "./components/textos";
+@import "./components/cards";
+
+.col-1{
+    margin: 2px;
+    padding: 5px;
+  }
+  nav img{
+    display: flex;
+    flex-direction: column;
+    }
+     .img-thumbnail{
+      width: 200px;
+      height: 150px; 
+  }
+

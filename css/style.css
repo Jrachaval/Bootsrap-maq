@@ -1,89 +1,69 @@
-*{
-    padding: 0;
-    margin: 0;
+body {
+  background-color: black;
+}
+body ul li {
+  padding: 50px;
+}
+body .h1 {
+  font-family: "Keania One";
+  font-style: normal;
+  font-size: 100px;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  color: rgba(59, 160, 233, 0.6);
+}
+body .container-fluid {
+  background-image: url(../assets/img/wallpaper-mania.com_High_resolution_wallpaper_background_ID_77702071762.jpg);
+  width: 1920px;
+  height: 1080px;
+}
+body .container {
+  align-items: flex-start;
+  margin-left: 0.2rem;
 }
 
-body{
-  background-color: #000000;
-    
+.h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: normal;
+  font-size: 120px;
+  color: white;
 }
 
-.container-fluid{
-    background-image: url(../assets/img/wallpaper-mania.com_High_resolution_wallpaper_background_ID_77702071762.jpg);
-    width: 1920px;
-    height: 1080px;
+p {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: cyan;
 }
 
-.col-1{
+.card-img-top {
+  width: 60%;
+  height: 60%;
+}
+
+.card {
+  flex-direction: row;
+}
+
+.card-text {
+  color: rgba(59, 160, 233, 0.6);
+}
+
+.col-1 {
   margin: 2px;
   padding: 5px;
 }
 
-  .h1{
-    font-family: 'Keania One';
-    font-style: normal;
-    font-size: 100px;
-    text-align: center;
-    width: 200px;
-    height: 50px;
-    color: rgba(59, 160, 233, 0.6);
-    }
+nav img {
+  display: flex;
+  flex-direction: column;
+}
 
-    ul li{
-      padding: 50px;
-    }
+.img-thumbnail {
+  width: 200px;
+  height: 150px;
+}
 
-    .h2{
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      font-style: normal;
-      font-size: 120px;
-      
-      color: white;
-    }
-    p {
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      font-style: normal;
-      font-size: 20px;
-      text-align: center;
-      color: yellow;
-    }
-
-
-    .container{
-      align-items: flex-start;
-      margin-left: 0.20rem;
-      
-    }
-    
-    nav img{
-      display: flex;
-      flex-direction: column;
-          }
-        
-    
-
-    .img-thumbnail{
-        width: 200px;
-        height: 150px;
-          
-    }
-
-    .card-img-top{
-      width: 60%;
-      height: 60%;
-    }
-
-    .card{
-      flex-direction: row;
-    }
-
-    .card-text{
-      color: #000000;
-    }
-
-
-
-    
-
-
-
+/*# sourceMappingURL=style.css.map */
