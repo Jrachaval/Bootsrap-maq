@@ -1,0 +1,6 @@
+En el archivo index.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, se detalla: “Pagina Oficial de Praetorians GYM"
+En la etiqueta meta name keywords se detalla: "Crossfit, Gym , Argentina , Boxing, Powerlifting, Funcional, Gimnasio " 
+con el fin que el usuario pueda encontrarnos mediante las disciplinas escritas y la region ubicada.
+En los h1 y h2 seguidos del index se encuentra el nombre en el encabezado y "ALCANZA TU MÁXIMO POTENCIAL." como frase captativa y motivadora.
+
