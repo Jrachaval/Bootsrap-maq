@@ -13,7 +13,7 @@
     flex-direction: column;
     }
      .img-thumbnail{
-      width: 200px;
-      height: 150px; 
+      width: map-get($estilos, ancho );
+      height: map-get($estilos, largo);
   }
 

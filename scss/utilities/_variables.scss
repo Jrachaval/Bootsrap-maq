@@ -1,4 +1,18 @@
 $negro: black;
-$text-color: cyan;
+$text-color: rgb(255, 196, 0);
 $praetorian: rgba(59, 160, 233, 0.6);
 
+
+$estilos: (
+    amarillo: yellow,
+    blanco: white,
+    verde: rgb(30, 238, 30),
+    tarjeta: rgb(238, 159, 12),
+    ancho: 700px,
+    largo: 170px,
+);
+
+$estructura:(
+    anchor: 1920px,
+    largor: 1080px,
+)

@@ -23,24 +23,34 @@ body .container {
   margin-left: 0.2rem;
 }
 
-.h2 {
+.h2, p, .h3 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-style: normal;
   font-size: 120px;
   color: white;
 }
 
-p {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+/*  p {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: normal;
   font-size: 20px;
   text-align: center;
-  color: cyan;
+  color: $text-color
+}*/
+.h3 {
+  color: yellow;
+  font-size: 60px;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(255, 196, 0);
 }
 
 .card-img-top {
-  width: 60%;
-  height: 60%;
+  width: 35%;
+  height: 35%;
 }
 
 .card {
@@ -48,7 +58,7 @@ p {
 }
 
 .card-text {
-  color: rgba(59, 160, 233, 0.6);
+  color: rgb(238, 159, 12);
 }
 
 .col-1 {
@@ -62,8 +72,8 @@ nav img {
 }
 
 .img-thumbnail {
-  width: 200px;
-  height: 150px;
+  width: 700px;
+  height: 170px;
 }
 
 /*# sourceMappingURL=style.css.map */
