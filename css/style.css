@@ -2,7 +2,7 @@ body {
   background-color: black;
 }
 body ul li {
-  padding: 50px;
+  padding: 40px;
 }
 body .h1 {
   font-family: "Keania One";
@@ -61,11 +61,6 @@ p {
   color: rgb(238, 159, 12);
 }
 
-.col-1 {
-  margin: 2px;
-  padding: 5px;
-}
-
 nav img {
   display: flex;
   flex-direction: column;
@@ -74,6 +69,22 @@ nav img {
 .img-thumbnail {
   width: 700px;
   height: 170px;
+}
+
+.credit-card-div span {
+  padding-top: 10px;
+}
+
+.credit-card-div img {
+  padding-top: 30px;
+}
+
+.credit-card-div .small-font {
+  font-size: 9px;
+}
+
+.credit-card-div .pad-adjust {
+  padding-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
