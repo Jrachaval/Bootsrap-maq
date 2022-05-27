@@ -61,6 +61,11 @@ p {
   color: rgb(238, 159, 12);
 }
 
+.col-1 {
+  margin: 2px;
+  padding: 5px;
+}
+
 nav img {
   display: flex;
   flex-direction: column;
@@ -71,20 +76,15 @@ nav img {
   height: 170px;
 }
 
-.credit-card-div span {
-  padding-top: 10px;
+.container-l{
+  padding: 20px;
+  margin: 2px;
 }
 
-.credit-card-div img {
-  padding-top: 30px;
-}
-
-.credit-card-div .small-font {
-  font-size: 9px;
-}
-
-.credit-card-div .pad-adjust {
-  padding-top: 10px;
+@media (max-width:1791px){
+    .row {
+      flex-direction: column;
+    }
 }
 
 /*# sourceMappingURL=style.css.map */
